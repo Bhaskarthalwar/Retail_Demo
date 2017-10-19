@@ -1,5 +1,5 @@
 # UBS_Retail
-This project is an exercise for supermarket like setup for the purpose of interview 
+This project is an exercise for supermarket like setup for the purpose of interview .
 
 The project has basically 4 packages ,description of each component is explained explicitly below :
 
