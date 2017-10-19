@@ -8,6 +8,7 @@ import com.practice.demo.retail.supermarket.Item;
 /**
  * Interface for calculating the price of individual items based on discount
  * amount on items if there is a discount on a number of items
+ *
  * 
  * @author bhaskar thalwar
  * 
