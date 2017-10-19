@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="UBS_SuperMarket" >
+	<test name="SuperMarket" allow-return-values="true">
+		<classes>
+			<!-- packagename.Testcase class name -->
+			<class name="com.assignment.ubs.testng.supermarket.SuperMarketClient" />
+		</classes>
+	</test>
+</suite>
