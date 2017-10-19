@@ -2,8 +2,7 @@ package com.practice.demo.retail.exception;
 
 /**
  * This Custom exception is for discount value if it exceeds the limit of 100 or
- * subceeds by 1
- * 
+ * subceeds by 1 
  * @author thalwar
  *
  */
