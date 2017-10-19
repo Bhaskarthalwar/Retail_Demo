@@ -3,19 +3,19 @@ This project is an exercise for supermarket like setup for the purpose of interv
 
 The project has basically 4 packages ,description of each component is explained explicitly below :
 
-1.com.practice.demo.retail.supermarket
+com.practice.demo.retail.supermarket : 
   This has two classes 
      1.SuperMarket: This class contains all the items of the super market 
      2.Item :The basic element of the super market 
        This class has below fields 
-       1.Item Code: A code associated to any item .
-       2.Item Price: Price of individual item of this code type .
-       3.Number Of Items : Total number of items 
-       4.Discount Opportunity : Yes/No
-       5.If Discount then what percent for individual item 
-       6.Number of Items required for discount at minimum 
+       <>Item Code: A code associated to any item .
+       <>Item Price: Price of individual item of this code type .
+       <>Number Of Items : Total number of items 
+       <>Discount Opportunity : Yes/No
+       <>If Discount then what percent for individual item 
+       <>Number of Items required for discount at minimum 
 
-2.com.practice.demo.retail.feed
+com.practice.demo.retail.feed : 
   This package has below classes which are a form of implementation for their interfaces 
      1.CheckInImpl :This class reads an item code and populates all its attributes and returns
                     the item to the client which in turn puts the item to the supermarket.
@@ -23,7 +23,7 @@ The project has basically 4 packages ,description of each component is explained
                      and its price also used for checking out all the items of the store also used
                      for showing the whole catalog of the store to the client
  
- 3.com.practice.demo.retail.bill
+ com.practice.demo.retail.bill : 
  This package has below classes 
      1.BillCalculatorImpl : This class contains the logic to calculate the items price individually as well as collectively .
      
@@ -55,7 +55,7 @@ The project has basically 4 packages ,description of each component is explained
     This logic is used for all the items cumulatively in the store to arrive at the final cumulative sum of the whole store .
 
      
-     4 .com.practice.demo.retail.exception
+    com.practice.demo.retail.exception  : 
      
      This package is used to catch the application specific exceptions 
           1. ItemNotFoundException :       When the client is trying to check out an item which does not exist yet in the store 
@@ -81,7 +81,8 @@ Then there are basically 3 clients to test this functionality :
 
 3. TestNG client class : com.assignment.ubs.testng.supermarket
    There is testng.xml file which is configured to run with this project while doing maven build 
-   By running the maven build command 
+   By running the below maven build command 
+   
    mvn clean install 
    
    All the test cases would run synchronously if it needs to be run individually then can run the commands like below 
