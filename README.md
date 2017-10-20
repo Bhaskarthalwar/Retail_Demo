@@ -86,9 +86,14 @@ Then there are basically 3 clients to test this functionality :
    mvn clean install 
    
    All the test cases would run synchronously if it needs to be run individually then can run the commands like below 
+   
+   
    mvn -Dtest=com.assignment.ubs.testng.supermarket.SuperMarketClient#checkinItems test
+   
    mvn -Dtest=com.assignment.ubs.testng.supermarket.SuperMarketClient#singleItemCheckout test
+   
    mvn -Dtest=com.assignment.ubs.testng.supermarket.SuperMarketClient#showCatalogOfItems test
+   
    mvn -Dtest=com.assignment.ubs.testng.supermarket.SuperMarketClient#allItemsCheckout test
    
    
